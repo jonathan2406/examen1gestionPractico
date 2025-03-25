@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  flask-app:
+    image: siyahkugu/examen1gestionpractico:v1  
+    ports:
+      - "5000:5000"
